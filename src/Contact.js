@@ -3,7 +3,7 @@ export default function Contact() {
   return (
     <div>
       <h2>contact form </h2>
-      <form className="form">
+      <form className="form" netlify>
         <input className="input" placeholder="name" type="text" />
         <input className="input" placeholder="email" type="text" />
         <textarea className="input" placeholder="your request" type="text" />
