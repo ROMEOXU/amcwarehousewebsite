@@ -1,0 +1,90 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #efeeed;
+}
+
+.main {
+  /* width: 100px; */
+  height: 50vh;
+  text-align: center;
+  /* align-items: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin-left: 600px; */
+  /* justify-content: center; */
+  font-size: 80px;
+  /* position: relative; */
+  margin:0 auto;
+}
+.main .title {
+  
+  display:inline-block;
+  margin-top: 10%;
+  font-family: "Ranchers", cursive;
+  letter-spacing: 20px;
+  text-decoration: none;
+  color: black;
+  /* margin:0 auto; */
+}
+
+.sub {
+  display: flex;
+  justify-content: space-around;
+}
+.link {
+  text-decoration: none;
+  color: gray;
+}
+/* img {
+  height: 50vh;
+} */
+.cargopic {
+  width: 80%;
+  height:50vh;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  text-align: center; */
+}
+.input {
+  width: 30%;
+  margin-top: 5px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;/*MAKE CENTER*/
+  height: 5vh;
+}
+button {
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+}
+p {
+  margin-top: 50px;
+}
+.warehousePic{
+  width:50%;
+  height:30vh;
+}
+
+@media only screen and (max-width:400px){
+  .main{
+    height: 50%;
+    width:50%;
+    font-size: larger;
+    margin-right: 40%;
+    
+  }
+  .sub{
+    flex-direction: column;
+  }
+  .warehousePic{
+    height: 50%;
+  }
+}
