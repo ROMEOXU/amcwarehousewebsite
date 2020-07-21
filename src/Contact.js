@@ -31,6 +31,7 @@ class Contact extends React.Component {
     const { name, email, message } = this.state;
     return (
       <form onSubmit={this.handleSubmit}>
+        <h3>info@amcwarehouse.com</h3>
         <p>
           <label>
             Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
