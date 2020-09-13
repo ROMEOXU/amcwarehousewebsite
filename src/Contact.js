@@ -17,7 +17,7 @@ export default function Contact(){
     <br/>
     <h3>welcome to contact our email: AMCwarehouseteam@gmail.com</h3>
     <h3>Address:1946 Sabre St , Haywared ,CA</h3>
-    <p>Alan 510-356-7190 / LuLu 650-933-6166 /Romeo 510-509-5811</p>
+    <p>Alan 510-356-7190 / Lucia 650-933-6166 /Romeo 510-509-5811</p>
     
     <p> </p></div>
   )
