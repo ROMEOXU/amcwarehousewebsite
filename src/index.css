@@ -38,11 +38,16 @@ body {
   text-decoration: none;
   color: gray;
 }
-/* img {
-  height: 50vh;
-} */
+.cargopic-div{
+  display:flex;
+  justify-content:space-evenly;
+}
+
 .cargopic {
-  width: 80%;
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  /* width: 80%; */
   /* height:50vh; */
 }
 .form {
@@ -67,9 +72,22 @@ button {
 }
 p {
   margin-top: 50px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.serviceDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  margin:auto;
+}
+.sdiv{
+  padding:2%
 }
 .warehousePic{
-  width:50%;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
   /* height:30vh; */
 }
 
