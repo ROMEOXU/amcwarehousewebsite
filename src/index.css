@@ -91,7 +91,7 @@ p {
   /* height:30vh; */
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:479px){
   .main{
     height: 50%;
     width:50%;
@@ -104,5 +104,11 @@ p {
   }
   .warehousePic{
     height: 50%;
+  }
+  .shen{
+    display:none;
+  }
+  .serviceDiv{
+    flex-direction: column;
   }
 }
